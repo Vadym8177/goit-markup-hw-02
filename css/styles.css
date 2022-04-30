@@ -1,0 +1,88 @@
+/* основной цвет фона #FFFFFF */
+/* цвет фона героя и футера #2F303A */
+/* цвет фона команды #F5F4FA */
+/* основной цвет текста #757575  */
+/* доп цвет текста #212121 */
+/* цвет для ховера #2196F3 */
+/* цвет текста в футере для контактов rgba(255, 255, 255, 0.6);
+ */
+
+
+:root {
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+--secondary-text-color: #FFF;
+--third-text-color: #000;
+--primary-bg-color: #FFF;
+}
+
+ul {
+    list-style: none;
+}
+
+
+ .page {
+     background-color: var(--primary-bg-color);
+     color: var(--title-text-color);
+ }
+ /* навигация сайта */
+
+ .logo-web {
+     color: var(--accent-color);
+ }
+ .logo-studio {
+     color: var(--third-text-color);
+ }
+
+.site-nav .link {
+color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.site-nav .link.current-second {
+    color: var(--accent-color);
+}
+.contacts-nav .link {
+    color: var(--title-text-color);
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-color);
+}
+/* герой */
+.hero-title {
+    color: var(--secondary-text-color);
+}
+
+/* секция работа */
+.section-work .title {
+    color: var(--primary-text-color);
+}
+
+/* секция */
+.section-title {
+    color: var(--primary-text-color);
+}
+/* секция команда */
+.section-team .title {
+    color: var(--primary-text-color);
+}
+/* кнопка */
+.button {
+color: var(--secondary-text-color);
+background-color: var(--accent-color);
+}
+
+
+
+/* портфолио */
+
+.section-portfolio .title {
+    color: var(--primary-text-color);
+}
