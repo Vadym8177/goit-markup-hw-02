@@ -25,8 +25,17 @@ ul {
  .page {
      background-color: var(--primary-bg-color);
      color: var(--title-text-color);
+     font-family: Roboto, sans-serif;
+     letter-spacing: 0.03em;
  }
+
  /* навигация сайта */
+  .logo {
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+ }
 
  .logo-web {
      color: var(--accent-color);
@@ -36,7 +45,11 @@ ul {
  }
 
 .site-nav .link {
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -50,35 +63,78 @@ color: var(--primary-text-color);
 }
 .contacts-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
     color: var(--accent-color);
 }
 /* герой */
+.hero {
+    background-color: #2F303A;
+}
 .hero-title {
     color: var(--secondary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-/* секция работа */
+/* секция преймущества */
 .section-work .title {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.section-work .text {
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* секция */
 .section-title {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 /* секция команда */
+.section-team {
+    background-color: #F5F4FA;
+}   
 .section-team .title {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.section-team .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 /* кнопка */
 .button {
-color: var(--secondary-text-color);
-background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
-
 
 
 /* портфолио */
